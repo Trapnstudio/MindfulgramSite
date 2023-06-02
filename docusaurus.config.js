@@ -92,7 +92,7 @@ const config = {
       footer: {
         logo: {
           alt: 'Mindfulgram',
-          src: 'img/Mindfulgram.png',
+          src: 'img/mindfulgram.png',
           href: '/',
           width: 55,
          
@@ -101,26 +101,45 @@ const config = {
         links: [
           // TODO: a lot more links
           {
-            title: 'Links',
+            title: 'Download ',
+            items: [
+              {
+                label: 'Mindfulgram on the Chrome Web Store',
+                href: 'https://github.com/Trapnstudio',
+              },
+              {
+                label: 'Mindfulgram on the Apple App Store',
+                href: 'https://www.trapnstudio.dev/',
+              },
+              {
+                label: 'Mindfulgram on the Firefox Add-ons Store',
+                href: 'https://www.trapnstudio.dev/',
+              },
+            ],
+          },
+          {
+            title: 'Learn more',
             items: [
               {
                 label: 'GitHub',
                 href: 'https://github.com/Trapnstudio',
               },
               {
-                label: 'Website',
+                label: 'Trapnstudio',
                 href: 'https://www.trapnstudio.dev/',
               },
              
             ],
           },
+          
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} trapNstudio`,
+        copyright: `Copyright © ${new Date().getFullYear()} 
+        <a href="https://trapnstudio.dev" target="_blank">Trapnstudio</a>`,
       },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+      tableOfContents: {
+        maxHeadingLevel: 6,
       },
+  
     }),
 };
 

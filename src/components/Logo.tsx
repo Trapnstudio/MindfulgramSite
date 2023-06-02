@@ -5,8 +5,6 @@ export const Logo = () => {
   return (
     <svg
       className="logo"
-      width="264.58334mm"
-      height="264.58334mm"
       viewBox="0 0 264.58334 264.58334"
       xmlSpace="preserve"
       xmlns="http://www.w3.org/2000/svg"
