@@ -4,6 +4,7 @@ import React from "react";
 export const Logo = () => {
   return (
     <svg
+      className="logo"
       width="264.58334mm"
       height="264.58334mm"
       viewBox="0 0 264.58334 264.58334"
@@ -17,6 +18,7 @@ export const Logo = () => {
         transform="translate(118.448 -381.166)"
       />
       <path
+        className="logo-glows"
         d="M-5.736 572.195v-14.684h39.158v14.684zM-44.894 520.8v-14.684H72.58V520.8zm-29.369-51.395V454.72h176.212v14.685z"
         fill="#fff"
         fillOpacity={1}
