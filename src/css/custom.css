@@ -6,7 +6,9 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --mg-font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace ;
+  --mg-font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo,
+    Consolas, 'DejaVu Sans Mono', monospace;
+  --ifm-heading-font-family: var(--mg-font-family);
 
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -45,11 +47,11 @@ html {
 }
 
 @keyframes glow {
-  0%, 100% {
-      stroke-width: 0;
+  0%,
+  100% {
+    stroke-width: 0;
   }
   50% {
     stroke-width: 5;
   }
-  
 }
