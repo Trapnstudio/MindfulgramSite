@@ -6,6 +6,8 @@
 
 /* You can override the default Infima variables here. */
 :root {
+  --mg-font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace ;
+
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
@@ -27,4 +29,27 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+html {
+  font-family: var(--mg-font-family);
+}
+
+.logo {
+  width: 33%;
+}
+
+.logo-glows {
+  stroke: white;
+  animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+  0%, 100% {
+      stroke-width: 0;
+  }
+  50% {
+    stroke-width: 5;
+  }
+  
 }
