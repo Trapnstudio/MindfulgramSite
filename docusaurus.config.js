@@ -121,7 +121,7 @@ const config = {
                 href: '#install',
               },
               {
-                label: 'Mindfulgram Arc boost on Arcboost',
+                label: 'Mindfulgram Arc boost on Arcboosts',
                 href: 'https://arcboosts.com/boosts/161/mindfulgram',
               },
               {
