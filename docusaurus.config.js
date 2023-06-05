@@ -94,35 +94,35 @@ const config = {
             items: [
               {
                 label: 'Mindfulgram iOS app on App Store (Coming Soon)',
-                href: '/',
+                href: '#install',
               },
               {
                 label: 'Mindfulgram Android app on Play Store (Coming Soon)',
-                href: '/',
+                href: '#install',
               },
               {
                 label:
                   'Mindfulgram Chrome extension on Chrome Web Store (Coming Soon)',
-                href: '/',
+                href: '#install',
               },
               {
                 label:
                   'Mindfulgram Safari extension on App Store (Coming Soon)',
-                href: '/',
+                href: '#install',
               },
               {
                 label:
                   'Mindfulgram Firefox extension on Firefox Add-ons Store (Coming Soon)',
-                href: '/',
+                href: '#install',
               },
               {
                 label:
                   'Mindfulgram Edge extension on Microsoft Edge Add-ons Store (Coming Soon)',
-                href: '/',
+                href: '#install',
               },
               {
-                label: 'Mindfulgram Arc boost on Arcboost (Coming Soon)',
-                href: '/',
+                label: 'Mindfulgram Arc boost on Arcboost',
+                href: 'https://arcboosts.com/boosts/161/mindfulgram',
               },
               {
                 label: 'Mindfulgram userscript on Greasy Fork',
